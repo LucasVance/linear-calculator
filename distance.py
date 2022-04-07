@@ -11,4 +11,4 @@ y2 = int(input("y2: "))
 distance = math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
 
 # Print distance and round with two digits
-print("Distance: " + round(distance, 2))
+print("Distance: " + str(round(distance, 2)))
