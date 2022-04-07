@@ -8,22 +8,23 @@ x2 = input("x2: ")
 y2 = input("y2: ")
 
 # Find change in both variables
-deltaY = int(y1)-int(y2)
-deltaX = int(x1)-int(x2)
+delta_y = int(y1)-int(y2)
+delta_x = int(x1)-int(x2)
 
 # Find greatest common divisor to simplify fraction
-gcd = math.gcd(deltaY, deltaX)
-deltaY = deltaY/gcd
-deltaX = deltaX/gcd
+gcd = math.gcd(delta_y, delta_x)
+delta_y = delta_y/gcd
+delta_x = delta_x/gcd
 print("GCD = " + str(gcd))
 
 # If x = 0, slope is undefined. If y = 0, slope = 0. If none of these, print deltaY over deltaX as fraction.
-if deltaX == 0:
+if delta_x == 0:
     print("Slope = undefined")
-elif deltaY == 0:
+elif delta_y == 0:
     print("Slope = 0")
 else:
     print("Slope:")
-    print(deltaY)
+    print(delta_y)
     print("--")
-    print(deltaX)
+    print(delta_x)
+

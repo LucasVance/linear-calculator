@@ -1,13 +1,13 @@
 while (True):
-    toRun = input("Property to find: ")
+    to_run = input("Property to find: ")
 
-    if toRun == "distance":
+    if to_run == "distance":
         exec(open("./distance.py").read())
-    elif toRun == "slope":
+    elif to_run == "slope":
         exec(open("./slope.py").read())
-    elif toRun == "midpoint":
+    elif to_run == "midpoint":
         exec(open("./midpoint.py").read())
-    elif toRun == "ratio":
+    elif to_run == "ratio":
         exec(open("./ratio.py").read())
     else:
         print("An error occurred. Please enter one of the following: distance, midpoint, slope.")

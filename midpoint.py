@@ -8,7 +8,9 @@ x2 = input("x2: ")
 y2 = input("y2: ")
 
 
-xCoor = (int(x1) + int(x2))/2
-yCoor = (int(y1) + int(y2))/2
+x_coor = (int(x1) + int(x2))/2
+y_coor = (int(y1) + int(y2))/2
 
-print("Coordinates of midpoint:  " + str(xCoor) + ", " + str(yCoor))
+print("Coordinates of midpoint:  " + str(x_coor) + ", " + str(y_coor))
+
+
