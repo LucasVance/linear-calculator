@@ -9,5 +9,7 @@ while (True):
         exec(open("./midpoint.py").read())
     elif to_run == "ratio":
         exec(open("./ratio.py").read())
+    elif to_run == "equation":
+        exec(open("./equation.py").read())
     else:
         print("An error occurred. Please enter one of the following: distance, midpoint, slope.")
