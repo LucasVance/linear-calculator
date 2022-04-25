@@ -14,4 +14,4 @@ while (True):
     elif to_run == "discriminant":
         exec(open("./discriminant.py").read())
     else:
-        print("An error occurred. Please enter one of the following: distance, midpoint, slope.")
+        print("An error occurred. Please enter one of the following: distance, midpoint, slope, ratio, equation, or midpoint.")
