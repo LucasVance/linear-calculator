@@ -3,12 +3,12 @@
 This repository is a collection of Python scripts that find different properties of linear equations.
 
 ## How to use
-To use these scripts, you will need to clone this repository in your CLI and run `main.py` with Python.
+To use these scripts, you will need to clone this repository in your CLI and run `main.py` with Python, or visit [replit.com/@LucasV07/linear-calculator](https://replit.com/@LucasV07/linear-calculator).
 
 1. Clone this git repository in your environment by using
 `git clone https://github.com/LucasVance/linear-calculator`
 
-2. Make sure you have Python 3 installed (https://www.python.org/downloads/)
+2. Make sure you have Python 3 installed: [python.org/downloads](https://www.python.org/downloads/)
 
 3. Run `main.py` with Python by using `python3 main.py`.
 
